@@ -6,23 +6,26 @@ import ShowProductLimit from "../components/ProductLists/ShowProductLimit";
 
 import { useNavigate } from "react-router-dom";
 
-// const mock = [
-//   {
-//     id: 1,
-//     name: 'Table1'
-//     videoUrl: 'http://xxxx.com'
-//   },
-//   {
-//     id: 2,
-//     name: 'Table2'
-//     videoUrl: 'http://xxxx.com'
-//   },
-//   {
-//     id: 2,
-//     name: 'Table2'
-//     videoUrl: 'http://xxxx.com'
-//   },
-// ]
+const mockProducts = [
+  {
+    id: 1,
+    name: "Pic-01",
+    imageUrl: "/assets/LivingRoomPic/Seating/Pic-01.jpg",
+    price: 4000,
+  },
+  {
+    id: 2,
+    name: "Pic-02",
+    imageUrl: "/assets/LivingRoomPic/Seating/Pic-02.jpg",
+    price: 6000,
+  },
+  {
+    id: 3,
+    name: "Pic-03",
+    imageUrl: "/assets/LivingRoomPic/Seating/Pic-03.jpg",
+    price: 8000,
+  },
+];
 
 const ProductsPage = () => {
   const navigate = useNavigate();
@@ -43,7 +46,6 @@ const ProductsPage = () => {
       `/product?department=${department || "allproducts"}&category=${category}`
     );
 
-    console.log("Product =");
     setProduct(res?.data?.products);
   }, [category, department]);
 
@@ -59,7 +61,14 @@ const ProductsPage = () => {
         <ShowProductLimit />
       </div>
       <div className="grid grid-cols-3 px-20 ">
-        {product &&
+        {mockProducts?.map((p, i) => {
+          return (
+            <div key={i} onClick={() => goToProductDetails(p.id)}>
+              <ProductCard img={p?.imageUrl} name={p?.name} price={p?.price} />
+            </div>
+          );
+        })}
+        {/* {product &&
           product?.map((p, i) => {
             return (
               <div key={i} onClick={() => goToProductDetails(p.id)}>
@@ -70,7 +79,7 @@ const ProductsPage = () => {
                 />
               </div>
             );
-          })}
+          })} */}
       </div>
 
       {/* {product?.data && (

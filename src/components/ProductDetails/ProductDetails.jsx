@@ -1,4 +1,4 @@
-import LivSetPic5 from "../../assets/LivingRoomPic/Seating/LivSetPic5.jpg";
+import LivSetPic5 from "/assets/LivingRoomPic/Seating/LivSetPic5.jpg";
 
 export default function ProductDetails() {
   return (

@@ -1,5 +1,5 @@
-import OurServicesPic1 from "../../assets/OurservicesPic/OurServicesPic1.jpg";
-import OurServicesPic2 from "../../assets/OurservicesPic/OurServicesPic2.jpg";
+import OurServicesPic1 from "/assets/OurservicesPic/OurServicesPic1.jpg";
+import OurServicesPic2 from "/assets/OurservicesPic/OurServicesPic2.jpg";
 
 export default function OurServices() {
   return (

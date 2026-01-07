@@ -1,6 +1,6 @@
-import chair1 from "../../assets/NewArrivals/chair1.jpg";
-import chair2 from "../../assets/NewArrivals/chair2.jpg";
-import chair3 from "../../assets/NewArrivals/chair3.jpg";
+import chair1 from "/assets/NewArrivals/chair1.jpg";
+import chair2 from "/assets/NewArrivals/chair2.jpg";
+import chair3 from "/assets/NewArrivals/chair3.jpg";
 
 export default function NewArrivals() {
   return (

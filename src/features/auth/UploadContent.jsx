@@ -1,5 +1,5 @@
 import { useEffect, useCallback } from "react";
-import logoHeader from "../../assets/Logo/ASHIRA_BRAND.png";
+import logoHeader from "/assets/Logo/ASHIRA_BRAND.png";
 import moment from "moment";
 
 export default function UploadContent({ orderNumber, setOrderNumber }) {

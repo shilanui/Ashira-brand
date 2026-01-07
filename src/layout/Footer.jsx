@@ -1,4 +1,4 @@
-import logoFooter from "../assets/Logo/ASHIRA_BRAND.png";
+import logoFooter from "/assets/Logo/ASHIRA_BRAND.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,

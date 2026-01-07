@@ -1,5 +1,5 @@
-import scbLogo from "../../assets/Logo/scbLogo.png";
-import QRCode from "../../assets/QRCode/QRCodeAshiraWeb.jpg";
+import scbLogo from "/assets/Logo/scbLogo.png";
+import QRCode from "/assets/QRCode/QRCodeAshiraWeb.jpg";
 
 export default function PaymentMethod() {
   return (

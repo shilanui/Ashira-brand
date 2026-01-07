@@ -1,6 +1,6 @@
 // import { Link } from "react-router-dom";s
-import HPPic1 from "../../assets/PerspectivePic/HP-Pic1.jpg";
-import HPPic2 from "../../assets/PerspectivePic/HP-Pic2.jpg";
+import HPPic1 from "/assets/PerspectivePic/HP-Pic1.jpg";
+import HPPic2 from "/assets/PerspectivePic/HP-Pic2.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css/bundle";

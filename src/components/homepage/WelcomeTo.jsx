@@ -1,4 +1,4 @@
-import welcomePic1 from "../../assets/WelcomeTo/WelcomePic1.jpg";
+import welcomePic1 from "/assets/WelcomeTo/WelcomePic1.jpg";
 
 export default function WelcomeTo() {
   return (

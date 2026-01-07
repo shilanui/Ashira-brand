@@ -1,4 +1,4 @@
-import logoHeader from "../../assets/Logo/ASHIRA_BRAND.png";
+import logoHeader from "/assets/Logo/ASHIRA_BRAND.png";
 
 export default function SignUpContent() {
   return (
